@@ -3,7 +3,7 @@ services:
     image: 337405469571.dkr.ecr.ap-southeast-2.amazonaws.com/graduation-app:latest
     container_name: health-check-app
     ports:
-      - "80:8000"
+      - "8080:8000"
     environment:
       - PROJECT_NAME=HealthCheck-Microservice
     restart: always
